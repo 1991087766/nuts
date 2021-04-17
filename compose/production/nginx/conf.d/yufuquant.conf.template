@@ -4,7 +4,7 @@ upstream django  {
 
 server {
     listen 80 default_server;
-    server_name _;
+    server_name ox.cswexc.cn;
     location / {
         root   /apps/yufuquant/dist;
         index  index.html;
